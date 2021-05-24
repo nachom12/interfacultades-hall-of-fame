@@ -5,6 +5,7 @@ import Tittle from '../components/tittle';
 
 
 const App = () => {
+
   return (
     <>
       <section className="body">
@@ -12,12 +13,17 @@ const App = () => {
           <Tittle />
         </section>
         <section className="charts">
-          <ChampionsChart cupType='Oro'/>
-          <ChampionsChart cupType='Plata'/>
-        </section> 
+          <div className="charts__gold">
+            <ChampionsChart cupType={'gold'}  />
+          </div>
+          <div className="charts__silver">
+            <ChampionsChart cupType={'silver'}  />
+          </div>
+        </section>
       </section>
     </>
-)};
+  )
+};
 
 export default App;
 
