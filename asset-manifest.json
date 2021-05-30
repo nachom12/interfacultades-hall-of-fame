@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/interfacultades-hall-of-fame/static/css/main.c5411a2e.chunk.css",
-    "main.js": "/interfacultades-hall-of-fame/static/js/main.f39412f7.chunk.js",
-    "main.js.map": "/interfacultades-hall-of-fame/static/js/main.f39412f7.chunk.js.map",
+    "main.css": "/interfacultades-hall-of-fame/static/css/main.58526667.chunk.css",
+    "main.js": "/interfacultades-hall-of-fame/static/js/main.53c071e6.chunk.js",
+    "main.js.map": "/interfacultades-hall-of-fame/static/js/main.53c071e6.chunk.js.map",
     "runtime-main.js": "/interfacultades-hall-of-fame/static/js/runtime-main.8275d03e.js",
     "runtime-main.js.map": "/interfacultades-hall-of-fame/static/js/runtime-main.8275d03e.js.map",
     "static/js/2.86a7ee0a.chunk.js": "/interfacultades-hall-of-fame/static/js/2.86a7ee0a.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.5513d483.chunk.js": "/interfacultades-hall-of-fame/static/js/3.5513d483.chunk.js",
     "static/js/3.5513d483.chunk.js.map": "/interfacultades-hall-of-fame/static/js/3.5513d483.chunk.js.map",
     "index.html": "/interfacultades-hall-of-fame/index.html",
-    "static/css/main.c5411a2e.chunk.css.map": "/interfacultades-hall-of-fame/static/css/main.c5411a2e.chunk.css.map",
+    "static/css/main.58526667.chunk.css.map": "/interfacultades-hall-of-fame/static/css/main.58526667.chunk.css.map",
     "static/js/2.86a7ee0a.chunk.js.LICENSE.txt": "/interfacultades-hall-of-fame/static/js/2.86a7ee0a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8275d03e.js",
     "static/js/2.86a7ee0a.chunk.js",
-    "static/css/main.c5411a2e.chunk.css",
-    "static/js/main.f39412f7.chunk.js"
+    "static/css/main.58526667.chunk.css",
+    "static/js/main.53c071e6.chunk.js"
   ]
 }
