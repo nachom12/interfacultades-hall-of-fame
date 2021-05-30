@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/interfacultades-hall-of-fame/static/css/main.e30a7d1e.chunk.css",
+    "main.css": "/interfacultades-hall-of-fame/static/css/main.32df0b04.chunk.css",
     "main.js": "/interfacultades-hall-of-fame/static/js/main.53c071e6.chunk.js",
     "main.js.map": "/interfacultades-hall-of-fame/static/js/main.53c071e6.chunk.js.map",
     "runtime-main.js": "/interfacultades-hall-of-fame/static/js/runtime-main.8275d03e.js",
@@ -10,13 +10,13 @@
     "static/js/3.5513d483.chunk.js": "/interfacultades-hall-of-fame/static/js/3.5513d483.chunk.js",
     "static/js/3.5513d483.chunk.js.map": "/interfacultades-hall-of-fame/static/js/3.5513d483.chunk.js.map",
     "index.html": "/interfacultades-hall-of-fame/index.html",
-    "static/css/main.e30a7d1e.chunk.css.map": "/interfacultades-hall-of-fame/static/css/main.e30a7d1e.chunk.css.map",
+    "static/css/main.32df0b04.chunk.css.map": "/interfacultades-hall-of-fame/static/css/main.32df0b04.chunk.css.map",
     "static/js/2.86a7ee0a.chunk.js.LICENSE.txt": "/interfacultades-hall-of-fame/static/js/2.86a7ee0a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8275d03e.js",
     "static/js/2.86a7ee0a.chunk.js",
-    "static/css/main.e30a7d1e.chunk.css",
+    "static/css/main.32df0b04.chunk.css",
     "static/js/main.53c071e6.chunk.js"
   ]
 }
