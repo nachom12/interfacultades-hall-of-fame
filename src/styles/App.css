@@ -40,12 +40,3 @@
   padding-bottom: 0%;
   height: 40px;
 }
-
-@media only screen and (max-width: 600px) {
-  .charts{
-    width: 100%;
-    height: 100%;
-    border-left: 1px solid gold;
-    border-right: 1px solid silver;
-  } 
-}
