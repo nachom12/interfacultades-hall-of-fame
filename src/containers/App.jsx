@@ -3,7 +3,6 @@ import '../styles/App.css';
 import ChampionsChart from '../components/championsChart';
 import Tittle from '../components/tittle';
 
-
 const App = () => {
 
   return (

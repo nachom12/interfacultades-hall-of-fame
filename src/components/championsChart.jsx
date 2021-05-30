@@ -9,20 +9,20 @@ const API_URL = 'https://interfacultades-api.vercel.app/api/champions';
 const ChampionsChart = ({ cupType }) => {
   
 
-  const [champions, setChampions] = useState([{ data: [] , message:[]}]);
+  const [champions, setChampions] = useState([{ data: [] }]);
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
     fetch(API_URL, { method: 'GET' })
       .then(response => response.json())
-      .then(data => {
+      .then(champions => champions.data.sort((a,b) => (a.year <= b.year) ? 1 : (b.year <= a.year) ? -1 : 0))
+      .then(data => 
+        {
         setChampions(data);
         setIsLoaded(true);
         console.log(data);
-
-      })
-  }, []); // the second parameter says when is the useState executed. (when [] is mounted, unmounted or updated)
-
+        })
+  }, []); // the second parameter says when is the useEffect executed. (when [] is mounted, unmounted or updated)
 
   return (
     <>
@@ -43,9 +43,10 @@ const ChampionsChart = ({ cupType }) => {
             }
           </div>
         </div>
-        <div className="teams">
+        <div className="teams__loading">
           {
-          !isLoaded && <span>loading...</span>
+          !isLoaded && 
+          <span><FontAwesomeIcon icon={faTrophy} /></span>
           }  
         </div>
         {
@@ -53,7 +54,7 @@ const ChampionsChart = ({ cupType }) => {
           <div className="teams">
           {
             // eslint-disable-next-line array-callback-return
-            champions.data.map((team) => {
+            champions.map((team) => {
               if (team.cup === cupType) return <TeamsChart key={team._id} teamData = {team.teamData[0]} year={team.year} />
             } 
             )
